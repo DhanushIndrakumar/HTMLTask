@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <!-- Text input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Name"><br><br>
+        
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="dhanush@gmail.com" placeholder="Enter Email" ><br><br>
+        
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="********" placeholder="Enter Your Password" ><br><br>
+        
+        <!-- Number input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter Age" ><br><br>
+        
+        <!-- Checkbox -->
+        <input type="checkbox" id="agree" name="agree" >
+        <label for="agree">I agree to the terms and conditions</label><br><br>
+        
+        <!-- Radio buttons -->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <!-- Select dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="India"  selected>India</option>
+            <option value="Canada" >Canada</option>
+        </select><br><br>
+        
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50">Default message here...</textarea><br><br>
+        
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
